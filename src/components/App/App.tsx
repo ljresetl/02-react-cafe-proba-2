@@ -5,7 +5,7 @@ import VoteOptions from "../VoteOptions/VoteOptions";
 import type { Votes, VoteType } from "../../types/votes";  
 import VoteStats from "../VoteStats/VoteStats";
 import Notification from "../Notification/Notification";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+// import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function App() {
   // Створюємо стан votes
@@ -54,7 +54,7 @@ export default function App() {
                   positiveRate={positiveRate}
               />) : (
         <Notification />)}
-      <SpeedInsights />
+      {/* <SpeedInsights /> */}
       </div>
       
      
