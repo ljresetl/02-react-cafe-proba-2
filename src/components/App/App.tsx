@@ -53,7 +53,6 @@ export default function App() {
                   positiveRate={positiveRate}
               />) : (
         <Notification />)}
-   
       </div>
       
      
